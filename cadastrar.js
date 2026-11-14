@@ -1,4 +1,4 @@
-const urlBackend = "http://localhost:3000";
+const urlBackend = "https://backend-musica.vercel.app";
 
 const inputTitulo = document.getElementById("titulo");
 const inputArtista = document.getElementById("artista");
@@ -44,3 +44,4 @@ async function cadastrarMusica() {
 
     window.location.href = "index.html";
 }
+
